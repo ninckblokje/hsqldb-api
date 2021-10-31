@@ -1,0 +1,9 @@
+GET http://localhost:8080/hsqldb-api/system/hsqldb/lob/count
+
+###
+
+DELETE http://localhost:8080/hsqldb-api/system/hsqldb/lob/unused
+
+###
+
+PUT http://localhost:8080/hsqldb-api/system/hsqldb/lob/blocks/mergeEmpty
